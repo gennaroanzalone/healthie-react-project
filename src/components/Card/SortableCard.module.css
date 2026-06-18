@@ -1,0 +1,13 @@
+.wrapper {
+  cursor: grab;
+  touch-action: none;
+}
+
+.wrapper:active {
+  cursor: grabbing;
+}
+
+/* Leave a placeholder gap where the lifted card was. */
+.dragging {
+  opacity: 0.4;
+}

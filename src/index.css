@@ -1,0 +1,50 @@
+:root {
+  /* Palette — Rick & Morty portal greens + slate */
+  --bg: #0f1117;
+  --surface: #1a1d29;
+  --surface-2: #232735;
+  --border: #2e3344;
+  --text: #e7e9ee;
+  --text-muted: #9aa0b3;
+  --accent: #3dd68c;
+  --accent-strong: #2bb673;
+  --danger: #ff6b6b;
+
+  --status-alive: #3dd68c;
+  --status-dead: #ff6b6b;
+  --status-unknown: #9aa0b3;
+
+  --radius: 10px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(1200px 600px at 80% -10%, #14241d 0%, var(--bg) 60%);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
